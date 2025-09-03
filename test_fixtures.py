@@ -1,9 +1,7 @@
 import pytest
 
 @pytest.fixture
-def browser():
-    print ("Браузер!")
-    pass
+
 
 @pytest.fixture
 def login_page(browser):
